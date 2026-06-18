@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://i.ytimg.com/vi/gPjo26Le8fI/maxresdefault.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* HEADER */
+
+header {
+  background: black;
+  color: white;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-title {
+  flex: 1;
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+/* HERO */
+
+.hero {
+  background-image: url("https://www.bmw-motorrad.in/content/dam/bmwmotorradnsc/common/images/models/m/m1000rr/2024/offer/nsc-m1000rr-P0N3S-offer-01.jpg.asset.1728477644358.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero-box {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 60px;
+}
+
+.hero-box h2 {
+  font-size: 45px;
+}
+
+.hero-box p {
+  font-size: 25px;
+}
+
+#welcome {
+  color: yellow;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  background: darkgray;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: black;
+}
+
+/* BIKES */
+
+.bike-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.bike-section h2 {
+  color: purple;
+  font-size: 34px;
+}
+
+.bike-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  width: 280px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.bike-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h4 {
+  color: gray;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.like-btn {
+  width: 50px;
+}
+
+.like-btn.liked {
+  background: red;
+}
+
+.details-btn {
+  background: darkgray;
+}
+
+/* FOOTER */
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.bike-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px;
+}
+
+.card {
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.bike-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.like-btn,
+.details-btn {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
